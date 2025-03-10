@@ -725,8 +725,6 @@ export default function AccountModal({ isOpen, onClose }: Props) {
 ```
 
 Now we should be able to trigger our `AccountModal` when we click on the logged-in `ConnectButton`, which will open up the modal and allow us to deactivate the account by clicking "Change". 
-
-![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/el02jknrq8beijxlsz5w.png)
  
 You'll notice that if you click "Change" that we will see the logged out `ConnectButton`. If you click it you'll also see that we're immediately logged in - our MetaMask was never disconnected from the dapp. 
 
@@ -735,7 +733,3 @@ And that's it for this tutorial! Hopefully it will help you feel comfortable get
 The next steps for us will be to learn how to import contracts and make transactions - let me know in the comments if that's something you'd like to learn!
 
 Thanks for playing ;)
-
-[Full Repo](https://github.com/jacobedawson/connect-metamask-react-dapp)
-
-Follow me on Twitter: https://twitter.com/jacobedawson
